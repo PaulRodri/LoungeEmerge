@@ -1,2 +1,0 @@
-# LoungeEmerge
-Meu Primeiro repositor
