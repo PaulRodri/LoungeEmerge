@@ -1,0 +1,178 @@
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Tahoma','Arial';
+}
+
+/*Estilização da sessao HEADER da Pagina*/
+
+header{
+    background:linear-gradient(black,rgb(116, 17, 17));
+    padding: 10px 0;   
+}
+
+/*Estilização da sessão NAV (navegação) da pagina */
+
+nav{
+    position: absolute;
+    top: 15px;
+    right: -150px ;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover{
+    color: brown;
+    text-decoration: underline;
+}
+footer {
+    text-align: center;
+    background: url("bg.jpg");
+    padding: 40px 0;
+}
+
+/* Estilização das listas da Pagina*/
+
+ul{
+    list-style: none;
+}
+
+/* Estilização do logo tipo */
+.logo_caixa{
+    width: 500px;
+    position: relative;
+    margin: auto;
+}
+
+.logo{
+    width: 33%;
+    margin-right: 0%;
+    position: 0 150px;
+}
+
+.banner{
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+/*Estilização da area sobre a pizza*/
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal{
+    width: 940px;
+    margin: 0 auto;
+    padding: 3em 0;
+    background: rgb(255, 255, 255);
+    text-align: justify;
+}
+
+.principal strong{
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.pizza{
+    width:  120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.map{
+    padding: 3em 0;
+    background: linear-gradient(white, yellow);
+}
+
+.mapa-conteudo{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.map p{
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+/* area beneficio e videos*/
+
+.beneficios{
+    width: 100%;
+    padding: 3em 0;
+    background: rgb(129, 16, 16);
+}
+
+.conteudo-beneficio{
+    width: 640px;
+    margin: 0 auto;
+}
+.lista-beneficio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img_beneficios {
+    width: 100%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 5px 0px brown;
+}
+
+.img_beneficios:hover{
+    opacity: 0.7;
+}
+
+.itens{
+    line-height: 1.5;
+}
+
+.itens::before{
+    content: "*";
+}
+
+.itens:first-child{
+    font-weight: bold;
+}
+
+.video{
+    width: 560px;
+    margin: 2em auto;
+}
+
+nav a :hover{
+    color: red;
+    text-decoration: underline;
+}
+
+
+.banner{
+    width: 100%;
+}
+
+.copyright{
+    color:  rgb(31, 28, 28);
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+
